@@ -1,7 +1,8 @@
 import java.text.DecimalFormat
 
-//  ---> https://www.jdoodle.com/compile-kotlin-online/
-
+/* Editor de Código Online
+             ---> https://www.jdoodle.com/compile-kotlin-online/
+*/
 
 fun main(args: Array<String>) {
 
