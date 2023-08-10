@@ -1,4 +1,4 @@
-package variables
+package variable
 
 import java.text.DecimalFormat
 
