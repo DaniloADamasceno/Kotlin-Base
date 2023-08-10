@@ -1,3 +1,5 @@
+package variables
+
 import java.text.DecimalFormat
 
 /* Editor de Código Online
