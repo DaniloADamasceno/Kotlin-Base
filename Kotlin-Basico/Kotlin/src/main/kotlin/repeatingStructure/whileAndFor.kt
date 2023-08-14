@@ -1,5 +1,3 @@
-import java.text.DecimalFormat
-
 fun main(args: Array<String>) {
 
     println("------------ Exercício de Laços de Repetição ---------")
@@ -10,7 +8,7 @@ fun main(args: Array<String>) {
 
     // --> [x] Escreva um programa que imprima os números de 1 a 10 utilizando um loop while.
 
-        val num = 1
+        var num = 1
         while (num <= 10) {
             println(num)
             num++
@@ -105,8 +103,8 @@ fun main(args: Array<String>) {
     media = somaMedia / counter
 
     // para converter as casas em decimal com o DecimalFormat
-    val formatCounter = DecimalFormat("#.##")
-    val valueTwoDeci = formatCounter.format(media)
+    val formatoDecimal = DecimalFormat("#.##")
+    val valueTwoDeci = formatoDecimal.format(media)
 
     println("A média dos números digitados é: $valueTwoDeci")
 
@@ -140,93 +138,177 @@ fun main(args: Array<String>) {
         println("Valor invalido. Digite um valor valido")
     }
 
+
     // -->[x] Escreva um programa que leia um número inteiro do usuário e imprima a sequência de Fibonacci até esse número utilizando um loop while.
 
     println("---------------------------------   Sequencia de Fibonacci   ---------------------------------")
-    println("Digite um número inteiro:  ")
-    val numFibonacci =readlnOrNull()?.toIntOrNull()
 
 
-    if (numFibonacci != null) {
-        var numFibonacci1 = 0
-        var numFibonacci2 = 1
-        var numFibonacci3 = 0
 
-        println("A sucessão de Fibonacci é uma sequência de números inteiros iniciados por 0(zero) e 1(um),\n" +
+    print("Digite um número inteiro:  ")
+    val numberFibo =readlnOrNull()?.toIntOrNull()
+
+    println()
+    println()
+
+    val fibonacciList = ArrayList<Int>()
+
+    if (numberFibo != null) {
+        println("A sequência de Fibonacci é uma sequência de números inteiros iniciados por 0(zero) e 1(um),\n" +
                 "no qual cada termo subsequente corresponde a soma dos dois números anteriores: ")
+        println()
         println()
         println("A sequência é definida pela fórmula Fn = fn-1 + Fn-2 :")
         println("Iniciando pelo 1, essa sequência é formada somando cada número com o número que o antecede.\n" +
                 "No caso do 1, repete-se esse número e depois soma, ou seja, 1 + 1 = 2.\n" +
-                "De seguida soma-se o resultado com o número seguinte, ou seja, 1 + 2 = 3 e assim sucessivamente, numa sequência infinita:")
+                "De seguida soma-se o resultado com o número seguinte, ou seja, 1 + 2 = 3 e assim sucessivamente, numa sequência infinita: \n \n")
 
+    var a = 0
+    var b = 1
 
-            while (numFibonacci >= numFibonacci3) {
-                     // Para iniciar a sequencia de fibonacci é necessário somar os dois primeiros números da sequencia
-            numFibonacci3 = numFibonacci1 + numFibonacci2
-            numFibonacci1 = numFibonacci2               // --> O primeiro número da sequencia é igual ao segundo
-            numFibonacci2 = numFibonacci3               // --> O segundo número da sequencia é igual ao terceiro
-            println(numFibonacci3)
-        }
-    } else {
-        println("Valor invalido. Digite um valor valido")
+    while (a <= numberFibo) {
+        fibonacciList.add(a)
+        val sum = a + b
+        a = b
+        b = sum
+    } } else {
+        println("Valor INVALIDO. Digite um valor valido")
     }
- */
 
-    // -->[] Escreva um programa que leia vários números inteiros do usuário até que o número -1 seja digitado.
-    //       Em seguida, imprima o maior número lido utilizando um loop do-while.
+    println("Sequência de Fibonacci até $numberFibo:")
+    for (num in fibonacciList) {
+        print("$num  - ")
+    }
+
+
+    // -->[x] Escreva um programa que leia vários números inteiros do usuário até que o número -1 seja digitado.
+    //        Em seguida, imprima o maior número lido utilizando um loop do-while.
 
     println(
-        "Digite vários números inteiros para saber a média deles." +
+        "Digite vários números inteiros ao final será informado o MAIOR número" +
                 "\n" +
                 " --> Digite -1(menos um) para sair")
     println()
 
-    var numReader = 0
-
+    val numbersList = ArrayList<Int>()
     do {
-        print("Digite um número:  ")
-        numReader = readlnOrNull()?.toIntOrNull() ?: 0
-        if (numReader > numReader) {
-            numReader = numReader
+        print("Digite um número: ")
+        val numReader: Int = readlnOrNull()?.toIntOrNull() ?: 0
+
+        if (numReader != -1) {
+            numbersList.add(numReader)
         }
+
     } while (numReader != -1)
 
-    val numList = arrayOf(numReader)
-    numList.sort()
-    val numMaior = numList.takeLast(numReader)
+    if (numbersList.isEmpty()) { // Verificar se a lista [e vazia
+        println("NENHUM número foi inserido.")
+    } else {
+        var maxNumber = numbersList[0]
+            val numOrder = numbersList.sorted() // ordenar a lista de forma crescente
 
-    println("O maior número digitado foi: $numMaior")
-
-
-//
-//    do {
-//        print("Digite um número inteiro (-1 para sair): ")
-//        input = scanner.nextInt()
-//
-//        if (input != -1 && input > maxNumber) {
-//            maxNumber = input
-//        }
-//    } while (input != -1)
-//
-//    if (maxNumber != Int.MIN_VALUE) {
-//        println("O maior número lido é: $maxNumber")
-//    } else {
-//        println("Nenhum número válido foi digitado.")
-//    }
-//}
+        for (number in numbersList) {
+            if (number > maxNumber) {
+                maxNumber = number
+            }
+        }
+        println()
+        println("Os números digitados foram: $numOrder")
+        println()
+        println("O MAIOR número é: $maxNumber")
+    }
 
 
+    // -->[x] Escreva um programa que leia vários números inteiros do usuário até que o número 0 seja digitado.
+    //        Em seguida, imprima a quantidade de números positivos e negativos lidos utilizando um loop for.
+
+    println(
+        "Digite vários números inteiros positivos é negativos" +
+                "\n" +
+                " --> Digite 0(ZERO) para sair")
+    println()
+
+    val listaPositiva = ArrayList<Int>()
+    val listaNegativa = ArrayList<Int>()
+
+    var listaCompleta =ArrayList<Int>()
+    listaCompleta = (listaPositiva + listaNegativa) as ArrayList<Int>
+
+    do {
+        print("Digite um número: ")
+        val numReader: Int = readlnOrNull()?.toIntOrNull() ?: 0
+
+        if (numReader <= -1) {                       // --> se o número for negativo
+            listaNegativa.add(numReader)
+        }
+        else {                                      //  --> se o número for positivo
+            listaPositiva.add(numReader)
+        }
+
+        listaCompleta = (listaPositiva + listaNegativa) as ArrayList<Int>       // --> juntar as duas listas
+    } while (numReader != 0)
+
+        if (listaPositiva.isEmpty() && listaNegativa.isEmpty()) { // Verificar se a lista [e vazia
+            println("NENHUM número foi inserido.")
+        } else {
+            println()
+            println("Os números digitados foram: $listaCompleta")
+            println()
+
+        }
+
+        println("A quantidade de números positivos é: ${listaPositiva.size}")
+        println("A quantidade de números negativos é: ${listaNegativa.size}")
+
+*/
+
+    // -->[] Escreva um programa que leia um número inteiro do usuário e imprima a sua representação binária utilizando um loop while.
+
+    // -->[] Escreva um programa que leia um número inteiro do usuário e imprima a soma de seus dígitos utilizando um loop do-while.
+
+    // -->[] Escreva um programa que leia vários números inteiros do usuário até que o número 0 seja digitado.
+    //        Em seguida, imprima o segundo maior número lido utilizando um loop for.
+
+    println(
+        "Digite vários números inteiros ao final será informado o SEGUNDO maior número" +
+                "\n" +
+                " --> Digite 0(ZERO) para sair")
+    println()
+
+    val numbersList03 = ArrayList<Int>()
+    do {
+        print("Digite um número: ")
+        val numReader03: Int = readlnOrNull()?.toIntOrNull() ?: 0
+
+        if (numReader03 != 0) {
+            numbersList03.add(numReader03)
+        }
+    } while (numReader03 != 0)
+
+    if (numbersList03.isEmpty()) {              // --> Verificar se a lista e vazia
+        println("NENHUM número foi inserido !!")
+    } else {
+
+        val numOrder03 = numbersList03.sortedByDescending { it * it } // --> ordenar a lista de forma crescente
+        var segundoNumero = numbersList03[1]
+
+        for (number03 in numbersList03) {
+            if (number03 > segundoNumero) {
+                segundoNumero = number03
+            }
+        }
+
+        println()
+        println("Os números digitados foram:  $numOrder03")
+        println()
+        println("O SEGUNDO maior número é: $segundoNumero")
+
+        println(segundoNumero)
+
+    }
 
 
-// -->[] Escreva um programa que leia vários números inteiros do usuário até que o número 0 seja digitado. Em seguida, imprima a quantidade de números positivos e negativos lidos utilizando um loop for.
 
-// -->[] Escreva um programa que leia um número inteiro do usuário e imprima a sua representação binária utilizando um loop while.
-
-// -->[] Escreva um programa que leia um número inteiro do usuário e imprima a soma de seus dígitos utilizando um loop do-while.
-
-// -->[] Escreva um programa que leia vários números inteiros do usuário até que o número 0 seja digitado. Em seguida, imprima o segundo maior número lido utilizando um loop for.
-
-// -->[] Escreva um programa que leia um número inteiro do usuário e imprima se ele é um número perfeito ou não utilizando um loop while.
+    // -->[] Escreva um programa que leia um número inteiro do usuário e imprima se ele é um número perfeito ou não utilizando um loop while.
 
 }
