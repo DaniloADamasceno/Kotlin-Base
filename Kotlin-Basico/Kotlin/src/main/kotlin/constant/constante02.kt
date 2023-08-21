@@ -10,7 +10,7 @@ fun main(args: Array<String>) {
     println()
 
 
-// -->[x] Crie um programa que pede ao usuário para digitar dois números e imprime qual número é maior.
+//01    -->[x] Crie um programa que pede ao usuário para digitar dois números e imprime qual número é maior.
     println("Digite um número")
     val numOne = readlnOrNull()?.toDoubleOrNull()
     println()
@@ -30,7 +30,7 @@ fun main(args: Array<String>) {
     }
 
 
-    // -->[x] Crie um programa que pede ao usuário para digitar um número e imprime se ele é positivo, negativo ou zero.
+//02    -->[x] Crie um programa que pede ao usuário para digitar um número e imprime se ele é positivo, negativo ou zero.
     println("Digite um número")
     val numParImpar01 = readlnOrNull()?.toIntOrNull()
     println()
@@ -46,8 +46,8 @@ fun main(args: Array<String>) {
     }
 
 
-// -->[] Crie um programa que pede ao usuário para digitar o seu nome e idade.
-//       Se a idade for menor que 18, o programa deve imprimir "Você é menor de idade", caso contrário, deve imprimir "Você é maior de idade".
+//03    -->[x] Crie um programa que pede ao usuário para digitar o seu nome e idade.
+    //        Se a idade for menor que 18, o programa deve imprimir "Você é menor de idade", caso contrário, deve imprimir "Você é maior de idade".
 
     println("Digite o seu NOME:  ")
     val valueName = readlnOrNull()?.lowercase(Locale.getDefault())
@@ -68,9 +68,9 @@ fun main(args: Array<String>) {
     }
 
 
-// -->[x] Crie um programa que pede ao usuário para digitar a sua idade e se é estudante.
-//        Se a idade for menor que 18 e não for estudante, o programa deve imprimir "Você é menor de idade e não é estudante",
-//        caso contrário, deve imprimir "Você é maior de idade ou é estudante".
+//04    -->[x] Crie um programa que pede ao usuário para digitar a sua idade e se é estudante.
+    //        Se a idade for menor que 18 e não for estudante, o programa deve imprimir "Você é menor de idade e não é estudante",
+    //        caso contrário, deve imprimir "Você é maior de idade ou é estudante".
 
 
     print("Digite a sua IDADE:  ")
@@ -90,7 +90,7 @@ fun main(args: Array<String>) {
     }
 
 
-// -->[x] Crie um programa que pede ao usuário para digitar o seu salário e imprime o valor com um desconto de 10%.
+//05    -->[x] Crie um programa que pede ao usuário para digitar o seu salário e imprime o valor com um desconto de 10%.
 
         print("Digite o valor do seu Salario em Reais: ")
         val salario = readLine()?.toDoubleOrNull()
@@ -107,7 +107,7 @@ fun main(args: Array<String>) {
         }
 
 
-// -->[x] Crie um programa que pede ao usuário para digitar três números e imprime o maior deles.
+//06    -->[x] Crie um programa que pede ao usuário para digitar três números e imprime o maior deles.
 
     println("------>> Digite 3 Números  ")
     println()
@@ -134,7 +134,7 @@ fun main(args: Array<String>) {
     }
 
 
-// -->[x] Crie um programa que pede ao usuário para digitar um número e imprime se ele é par ou ímpar.
+//07    -->[x] Crie um programa que pede ao usuário para digitar um número e imprime se ele é par ou ímpar.
 
     print("Digite um número:   ")
     val numParImpar = readlnOrNull()?.toDoubleOrNull()
@@ -151,8 +151,8 @@ fun main(args: Array<String>) {
     }
 
 
-// -->[] Crie um programa que pede ao usuário para digitar a temperatura em Celsius e imprime a temperatura em Fahrenheit
-//       (fórmula: (C * 9/5) + 32).Faça um programa que pede ao usuário para digitar uma letra e imprime se é uma vogal ou uma consoante.
+//08    -->[x] Crie um programa que pede ao usuário para digitar a temperatura em Celsius e imprime a temperatura em Fahrenheit
+    //        (fórmula: (C * 9/5) + 32).Faça um programa que pede ao usuário para digitar uma letra e imprime se é uma vogal ou uma consoante.
 
         print("Digite a temperatura em Celsius:  ")
         val tempCelsius = readlnOrNull()?.toDoubleOrNull()
@@ -167,9 +167,9 @@ fun main(args: Array<String>) {
 
 
 
-//[] Crie um programa que pede ao usuário para digitar o seu peso e altura e calcula o seu índice de massa corporal
-// (IMC) (fórmula: peso / altura²). Em seguida, o programa deve imprimir se o usuário está abaixo do peso, no peso normal,
-// com sobrepeso, obeso ou muito obeso
+//09    -->[x] Crie um programa que pede ao usuário para digitar o seu peso e altura e calcula o seu índice de massa corporal
+    //        (IMC) (fórmula: peso / altura²). Em seguida, o programa deve imprimir se o usuário está abaixo do peso, no peso normal,
+    //        com sobrepeso, obeso ou muito obeso
 
     print("Digite o seu PESO em Kg:  ")
     val peso = readlnOrNull()?.toDoubleOrNull()

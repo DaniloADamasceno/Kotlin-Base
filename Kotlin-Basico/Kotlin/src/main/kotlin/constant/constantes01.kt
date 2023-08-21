@@ -6,10 +6,10 @@ fun main(args: Array<String>) {
     println()
 
 
-// [x] Escreva um programa que pede ao usuário para digitar um número e imprima se o número é positivo ou negativo.
+//01    -->[x] Escreva um programa que pede ao usuário para digitar um número e imprima se o número é positivo ou negativo.
     println("Digite um Número")
 
-    var numberDig = readlnOrNull()?.toDoubleOrNull()
+    val numberDig = readlnOrNull()?.toDoubleOrNull()
 
     if(numberDig != null){
         if(numberDig > 0){
@@ -23,7 +23,7 @@ fun main(args: Array<String>) {
 }
 
 
-// [x] Escreva um programa que pede ao usuário para digitar uma letra e imprima se a letra é uma vogal ou consoante.
+//02    -->[x] Escreva um programa que pede ao usuário para digitar uma letra e imprima se a letra é uma vogal ou consoante.
     print("Digite uma letra: ")
     val letraInput = readLine()?.trim()
 
@@ -44,7 +44,7 @@ fun main(args: Array<String>) {
     }
 
 
-// [x] Escreva um programa que pede ao usuário para digitar sua idade e imprima se a pessoa é maior ou menor de idade.
+//03    -->[x] Escreva um programa que pede ao usuário para digitar sua idade e imprima se a pessoa é maior ou menor de idade.
     print("Digite ua sua Idade: ")
 
     val idade = readLine()?.toDoubleOrNull()
@@ -60,13 +60,13 @@ fun main(args: Array<String>) {
     }
 
 
-// [x] Escreva um programa que pede ao usuário para digitar dois números e imprima o maior dos dois.
+//04    -->[x] Escreva um programa que pede ao usuário para digitar dois números e imprima o maior dos dois.
      println("Digite o Primeiro Número")
-        var primeiroNum = readlnOrNull()?.toDoubleOrNull()
+        val primeiroNum = readlnOrNull()?.toDoubleOrNull()
         println()
 
     println("Digite o Segundo Número")
-        var segundoNum = readlnOrNull()?.toDoubleOrNull()
+        val segundoNum = readlnOrNull()?.toDoubleOrNull()
         println()
 
         if(primeiroNum != null && segundoNum != null){
@@ -83,7 +83,7 @@ fun main(args: Array<String>) {
 }
 
 
-// [x] Escreva um programa que pede ao usuário para digitar um número e imprima se ele é par ou ímpar.
+//05    -->[x] Escreva um programa que pede ao usuário para digitar um número e imprima se ele é par ou ímpar.
     print("Digite um Número:  ")
     val numberParImpar = readlnOrNull()?.toDoubleOrNull()
 

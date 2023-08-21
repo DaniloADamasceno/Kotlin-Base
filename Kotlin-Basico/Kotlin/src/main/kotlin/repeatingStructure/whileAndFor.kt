@@ -8,7 +8,7 @@ fun main(args: Array<String>) {
 
 
     //? ------------------------------------------------------------ EXEMPLO 01 --------------------------------------//
-    // --> [x] Escreva um programa que imprima os números de 1 a 10 utilizando um loop while.
+//01   --> [x] Escreva um programa que imprima os números de 1 a 10 utilizando um loop while.
 
     var num = 1
     while (num <= 10) {
@@ -17,7 +17,7 @@ fun main(args: Array<String>) {
     }
 
     //? ------------------------------------------------------------ EXEMPLO 02 --------------------------------------//
-    // --> [x] Escreva um programa que imprima os números pares de 2 a 20 utilizando um loop for.
+//02    --> [x] Escreva um programa que imprima os números pares de 2 a 20 utilizando um loop for.
 
     val numPar = 2
     for (numPar in 2..20 step 2) {
@@ -26,7 +26,7 @@ fun main(args: Array<String>) {
 
 
     //? ------------------------------------------------------------ EXEMPLO 03 --------------------------------------//
-    // --> [x] Escreva um programa que imprima os números ímpares de 1 a 15 utilizando um loop do-while.
+//03    --> [x] Escreva um programa que imprima os números ímpares de 1 a 15 utilizando um loop do-while.
 
     var numImpar = 1
     do {
@@ -38,7 +38,7 @@ fun main(args: Array<String>) {
 
 
     //? ------------------------------------------------------------ EXEMPLO 04 --------------------------------------//
-    // -->[x] Escreva um programa que imprima a soma dos números de 1 a 100 utilizando um loop for.
+//04    -->[x] Escreva um programa que imprima a soma dos números de 1 a 100 utilizando um loop for.
 
     val numSoma = 1
     var soma = 0
@@ -49,7 +49,7 @@ fun main(args: Array<String>) {
 
 
     //? ------------------------------------------------------------ EXEMPLO 05 --------------------------------------//
-    //--> [x] Escreva um programa que leia um número inteiro do usuário e imprima a tabuada desse número utilizando um loop for.
+//05    --> [x] Escreva um programa que leia um número inteiro do usuário e imprima a tabuada desse número utilizando um loop for.
 
     print("Digite um número para ver a sua tabuada:  ")
     val numTabuada = readlnOrNull()?.toIntOrNull()
@@ -66,7 +66,7 @@ fun main(args: Array<String>) {
 
 
     //? ------------------------------------------------------------ EXEMPLO 06 --------------------------------------//
-    // -->[x] Escreva um programa que leia um número inteiro do usuário e imprima os seus divisores utilizando um loop while.
+//06    -->[x] Escreva um programa que leia um número inteiro do usuário e imprima os seus divisores utilizando um loop while.
 
     print("Digite um número para ver os seus divisores:  ")
     val numDivisor = readlnOrNull()?.toIntOrNull()
@@ -86,7 +86,7 @@ fun main(args: Array<String>) {
     }
 
     //? ------------------------------------------------------------ EXEMPLO 07 --------------------------------------//
-    // -->[x] Escreva um programa que leia vários números inteiros do usuário até que o número 0 seja digitado.
+//07    -->[x] Escreva um programa que leia vários números inteiros do usuário até que o número 0 seja digitado.
     //        Em seguida, imprima a média dos números lidos utilizando um loop do-while.
 
     println(
@@ -118,7 +118,7 @@ fun main(args: Array<String>) {
 
 
     //? ------------------------------------------------------------ EXEMPLO 08 --------------------------------------//
-    // -->[x] Escreva um programa que leia um número inteiro do usuário e imprima se ele é primo ou não utilizando um loop for.
+//08    -->[x] Escreva um programa que leia um número inteiro do usuário e imprima se ele é primo ou não utilizando um loop for.
 
     print("Digite um número para saber se ele é primo ou não:   ")
     val numPrimo = readlnOrNull()?.toIntOrNull()
@@ -150,7 +150,7 @@ fun main(args: Array<String>) {
     }
 
     //? ------------------------------------------------------------ EXEMPLO 09 --------------------------------------//
-    // -->[x] Escreva um programa que leia um número inteiro do usuário e imprima a sequência de Fibonacci até esse número utilizando um loop while.
+//09    -->[x] Escreva um programa que leia um número inteiro do usuário e imprima a sequência de Fibonacci até esse número utilizando um loop while.
 
     println("---------------------------------   Sequencia de Fibonacci   ---------------------------------")
 
@@ -198,7 +198,7 @@ fun main(args: Array<String>) {
 
 
     //? ------------------------------------------------------------ EXEMPLO 10 --------------------------------------//
-    // -->[x] Escreva um programa que leia vários números inteiros do usuário até que o número -1 seja digitado.
+//10    -->[x] Escreva um programa que leia vários números inteiros do usuário até que o número -1 seja digitado.
     //        Em seguida, imprima o maior número lido utilizando um loop do-while.
 
     println(
@@ -238,8 +238,8 @@ fun main(args: Array<String>) {
 
 
     //? ------------------------------------------------------------ EXEMPLO 11 --------------------------------------//
-    // -->[x] Escreva um programa que leia vários números inteiros do usuário até que o número 0 seja digitado.
-    //        Em seguida, imprima a quantidade de números positivos e negativos lidos utilizando um loop for.
+//11   -->[x] Escreva um programa que leia vários números inteiros do usuário até que o número 0 seja digitado.
+    //       Em seguida, imprima a quantidade de números positivos e negativos lidos utilizando um loop for.
 
     println(
         "Digite vários números inteiros positivos é negativos" +
@@ -281,11 +281,11 @@ fun main(args: Array<String>) {
 
 
     //? ------------------------------------------------------------ EXEMPLO 12 --------------------------------------//
-    // -->[] Escreva um programa que leia um número inteiro do usuário e imprima a sua representação binária utilizando um loop while.
+//12    -->[] Escreva um programa que leia um número inteiro do usuário e imprima a sua representação binária utilizando um loop while.
 
 
     //? ------------------------------------------------------------ EXEMPLO 13 --------------------------------------//
-    // -->[x] Escreva um programa que leia um número inteiro do usuário e imprima a soma de seus dígitos utilizando um loop do-while.
+//13    -->[x] Escreva um programa que leia um número inteiro do usuário e imprima a soma de seus dígitos utilizando um loop do-while.
 
     print("Digite um número inteiro: ")
 
@@ -304,7 +304,7 @@ fun main(args: Array<String>) {
 
 
     //? ------------------------------------------------------------ EXEMPLO 14 --------------------------------------//
-    // -->[x] Escreva um programa que leia vários números inteiros do usuário até que o número 0 seja digitado.
+//14    -->[x] Escreva um programa que leia vários números inteiros do usuário até que o número 0 seja digitado.
     //        Em seguida, imprima o segundo maior número lido utilizando um loop for.
 
     println(
@@ -348,7 +348,7 @@ fun main(args: Array<String>) {
 
 
     //? ------------------------------------------------------------ EXEMPLO 15 --------------------------------------//
-    // -->[x] Escreva um programa que leia um número inteiro do usuário e imprima se ele é um número perfeito ou não utilizando um loop while.
+//15    -->[x] Escreva um programa que leia um número inteiro do usuário e imprima se ele é um número perfeito ou não utilizando um loop while.
 
     print("Digite um número inteiro:")
     val numeroDigitadoPerfeito = readlnOrNull()?.toIntOrNull() ?: 0

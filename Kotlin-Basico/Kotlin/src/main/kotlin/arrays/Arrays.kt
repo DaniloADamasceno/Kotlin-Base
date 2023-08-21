@@ -8,8 +8,8 @@ fun main(args: Array<String>) {
 
 
     //?-------------------------------------------------------------------------------------------------------------
-    // -->[x] Crie um programa que peça ao usuário para digitar 5 números inteiros e armazene-os em um array.
-    //       Em seguida, exiba a soma de todos os números no array.
+//01    -->[x] Crie um programa que peça ao usuário para digitar 5 números inteiros e armazene-os em um array.
+    //        Em seguida, exiba a soma de todos os números no array.
 
     println("Digite 5 números inteiros: ")
     val numDigitados01 = Array(5) { readLine()!!.toInt() }
@@ -26,8 +26,8 @@ fun main(args: Array<String>) {
 
 
     //?-------------------------------------------------------------------------------------------------------------
-    // -->[x] Crie um programa que peça ao usuário para digitar 10 números inteiros e armazene-os em um array.
-    //          Em seguida, exiba o maior número no array.
+//02   -->[x] Crie um programa que peça ao usuário para digitar 10 números inteiros e armazene-os em um array.
+    //       Em seguida, exiba o maior número no array.
 
     println("Digite 10 números inteiros:  ")
     val numDigitados02 = Array(10) { readlnOrNull()?.toIntOrNull() }
@@ -46,7 +46,7 @@ fun main(args: Array<String>) {
 
 
     //?-------------------------------------------------------------------------------------------------------------
-    // -->[x] Crie um programa que peça ao usuário para digitar 10 números inteiros e armazene-os em um array.
+//03    -->[x] Crie um programa que peça ao usuário para digitar 10 números inteiros e armazene-os em um array.
     //        Em seguida, exiba o menor número no array.
 
     println("Digite 10 números inteiros:   ")
@@ -65,8 +65,8 @@ fun main(args: Array<String>) {
 
 
     //?-------------------------------------------------------------------------------------------------------------
-    // -->[x] Crie um programa que peça ao usuário para digitar 5 nomes e armazene-os em um array.
-    //       Em seguida, exiba os nomes em ordem alfabética.
+//04    -->[x] Crie um programa que peça ao usuário para digitar 5 nomes e armazene-os em um array.
+    //        Em seguida, exiba os nomes em ordem alfabética.
 
     println("Digite 5 nomes: ")
     val nomesDigitados04 = Array(5) { readln() }
@@ -78,8 +78,8 @@ fun main(args: Array<String>) {
 
 
     //?-------------------------------------------------------------------------------------------------------------
-    // -->[x] Crie um programa que peça ao usuário para digitar 10 números inteiros e armazene-os em um array.
-    //          Em seguida, exiba os números em ordem crescente.
+//05    -->[x] Crie um programa que peça ao usuário para digitar 10 números inteiros e armazene-os em um array.
+    //        Em seguida, exiba os números em ordem crescente.
 
     println("Digite 10 números inteiros:   ")
     val numDigitados05 = Array(10) { readlnOrNull()?.toIntOrNull() }
@@ -102,7 +102,7 @@ fun main(args: Array<String>) {
 
 
     //?-------------------------------------------------------------------------------------------------------------
-    // -->[x] Crie um programa que peça ao usuário para digitar 10 números inteiros e armazene-os em um array.
+//06    -->[x] Crie um programa que peça ao usuário para digitar 10 números inteiros e armazene-os em um array.
     //        Em seguida, exiba os números em ordem decrescente.
 
     println("Digite 10 números inteiros:   ")
@@ -117,7 +117,7 @@ fun main(args: Array<String>) {
 
 
     //?-----------------------------------------------------------------------------------------------------------------
-    // -->[x] Crie um programa que peça ao usuário para digitar 5 palavras e armazene-os em um array. Em seguida, exiba a palavra mais longa no array.
+//07    -->[x] Crie um programa que peça ao usuário para digitar 5 palavras e armazene-os em um array. Em seguida, exiba a palavra mais longa no array.
 
     println("Digite 5 palavras: ")
     val textoDigitado07 = Array(5) { readln() }
@@ -136,8 +136,8 @@ fun main(args: Array<String>) {
 
 
     //?-----------------------------------------------------------------------------------------------------------------
-    // -->[x] Crie um programa que peça ao usuário para digitar 5 palavras e armazene-os em um array.
-    //          Em seguida, exiba a palavra mais curta no array.
+//08    -->[x] Crie um programa que peça ao usuário para digitar 5 palavras e armazene-os em um array.
+    //        Em seguida, exiba a palavra mais curta no array.
 
     println("Digite 5 palavras: ")
     val textoDigitado08 = Array(5) { readln() }
@@ -157,8 +157,8 @@ fun main(args: Array<String>) {
 
 
     //?-----------------------------------------------------------------------------------------------------------------
-    // -->[x] Crie um programa que peça ao usuário para digitar uma frase e armazene cada palavra em um elemento de um array.
-    //          Em seguida, exiba a frase com as palavras na ordem inversa.
+//09    -->[x] Crie um programa que peça ao usuário para digitar uma frase e armazene cada palavra em um elemento de um array.
+    //        Em seguida, exiba a frase com as palavras na ordem inversa.
 
     println("Digite uma frase: ")
     val textoDigitado09 = Array(1) { readln() }
@@ -172,8 +172,8 @@ fun main(args: Array<String>) {
     println("A frase digitada invertida é: $fraseInvertida")
 
 
-    // -->[x] Crie um programa que peça ao usuário para digitar 10 números inteiros e armazene-os em um array.
-    //          Em seguida, remova os números duplicados e exiba o array resultante.
+//10    -->[x] Crie um programa que peça ao usuário para digitar 10 números inteiros e armazene-os em um array.
+    //        Em seguida, remova os números duplicados e exiba o array resultante.
 
     println("Digite 10 números inteiros:   ")
     val numDigitados10 = Array(10) { readlnOrNull()?.toIntOrNull() }

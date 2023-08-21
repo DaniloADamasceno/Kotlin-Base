@@ -24,25 +24,25 @@ fun main(args: Array<String>) {
     println()
 
 
-    // [x] Declare uma variável do tipo Double com o valor 3.14.
+//01    --> [x] Declare uma variável do tipo Double com o valor 3.14.
     val variablePi: Double = 3.1415
     println("--> Double : $variablePi")
 
-    // [x] Declare uma variável do tipo Boolean com o valor true.
+//02    --> [x] Declare uma variável do tipo Boolean com o valor true.
     val valueTrue: Boolean = true
     println("--> Boolean : $valueTrue")
 
-    // [x] Declare uma variável do tipo String com o valor "Hello, world!".
+//03    --> [x] Declare uma variável do tipo String com o valor "Hello, world!".
     val textInicial: String = "Hello, world!"
     println("--> String : $textInicial")
 
-    // [x] Declare uma variável do tipo “Int” com o valor 10 e uma variável do tipo String com o valor "20".
+//04    --> [x] Declare uma variável do tipo “Int” com o valor 10 e uma variável do tipo String com o valor "20".
     val inteiro10: Int = 10
     println("--> Integer :  $inteiro10")
     val stringInt: String = "20"
 
 
-    // [x] Converta a variável String para um “Int” e some as duas variáveis Int.
+//05    --> [x] Converta a variável String para um “Int” e some as duas variáveis Int.
     val convertString = Integer.parseInt(stringInt)
     val convertString2 = stringInt.toInt()
 
@@ -51,7 +51,7 @@ fun main(args: Array<String>) {
     println()
     println()
 
-    //[x]Declare uma variável do tipo Char com o valor 'a' e uma variável do tipo “Int” com o valor 1. Some a variável Char com a variável Int.
+//06    --> [x]Declare uma variável do tipo Char com o valor 'a' e uma variável do tipo “Int” com o valor 1. Some a variável Char com a variável Int.
     val charText: Char = 'a'
     println("--> Char : $charText")
     val valueOne: Int = 1
@@ -62,9 +62,9 @@ fun main(args: Array<String>) {
     println()
     println()
 
-    /* [x] Declare uma variável do tipo Double com o valor 5.5 e outra variável do tipo “Int” com o valor 3.
-          Realize a divisão desses dois números e imprima o resultado na tela.
-    */
+//07    --> [x] Declare uma variável do tipo Double com o valor 5.5 e outra variável do tipo “Int” com o valor 3.
+    //         Realize a divisão desses dois números e imprima o resultado na tela.
+
     val duplo5: Double = 5.5
     println("--> Double = $duplo5 ")
     val inteiro3: Int = 3
@@ -87,24 +87,24 @@ fun main(args: Array<String>) {
     println()
     println()
 
-    // [x] Declare uma variável do tipo Boolean com o valor false. Em seguida, altere o valor da variável para true e imprima o resultado na tela.
+//08    --> [x] Declare uma variável do tipo Boolean com o valor false. Em seguida, altere o valor da variável para true e imprima o resultado na tela.
     var invertBoolean: Boolean = false
     println("--> A Variável invertBoolean (Boolean) declarada inicialmente é : $invertBoolean")
 
     invertBoolean = true
     println("--> A Variável invertBoolean (Boolean) declarada posteriormente é : $invertBoolean")
 
-    /* [x]Declare uma variável do tipo String com uma frase de sua escolha.
-            Utilize o método length para obter o tamanho da frase e imprima o resultado na tela.(frase.length)
-     */
+//09    --> [x] Declare uma variável do tipo String com uma frase de sua escolha.
+    //         Utilize o método length para obter o tamanho da frase e imprima o resultado na tela.(frase.length)
+
     val frase: String = "Aprendendo Kotlin no curso de Desenvolvedor Android"
     println("--> A frase declarada é : $frase")
     println("--> O tamanho da frase é : ${frase.length}")
     println()
 
-    /* [x] Declare uma variável do tipo Char com o valor 'Z' e uma variável do tipo “Int” com o valor 10.
-            Some a variável Char com a variável “Int” e imprima o resultado na tela.
-     */
+//10    -->[x] Declare uma variável do tipo Char com o valor 'Z' e uma variável do tipo “Int” com o valor 10.
+    //        Some a variável Char com a variável “Int” e imprima o resultado na tela.
+
     val charZ: Char = 'Z'
     println("--> CharZ = $charZ ")
     val valor10: Int = 10
