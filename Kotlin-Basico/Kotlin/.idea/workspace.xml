@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="03c1c255-1c02-43c0-aa14-6a1a91b6dd65" name="Changes" comment="📌 Funções add e melhorias de escrita irrelevantes em comentarios">
+      <change afterPath="$PROJECT_DIR$/../Atividades-de-Revisao/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atividades-de-Revisao/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atividades-de-Revisao/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atividades-de-Revisao/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atividades-de-Revisao/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atividades-de-Revisao/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atividades-de-Revisao/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atividades-de-Revisao/src/main/kotlin/calculadorIMC/Imc.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrays/Arrays.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/constant/constante02.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/constant/constantes01.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/functions/functions.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/repeatingStructure/whileAndFor.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/variable/Variaveis.kt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1691693275" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1691693274" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/../.." />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/repeatingStructure/whileAndFor.kt" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2Tnu9bktVPFLoi5sjv6UwVkLdMP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Danilo A. Damasceno/Desktop/JavaScript e JAVA/Kotlin/Kotlin-Base/Kotlin-Basico/Kotlin/.idea/sonarlint&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Danilo A. Damasceno\Desktop\JavaScript e JAVA\Kotlin\Kotlin-Base\Kotlin-Basico\Kotlin\.idea\sonarlint" />
+      <recent name="D:\Danilo A. Damasceno\Desktop\JavaScript e JAVA\Kotlin\Kotlin-Base\Kotlin-Basico\Kotlin\.idea\libraries" />
+      <recent name="D:\Danilo A. Damasceno\Desktop\JavaScript e JAVA\Kotlin\Kotlin-Base\Kotlin-Basico\Kotlin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Danilo A. Damasceno\Desktop\JavaScript e JAVA\Kotlin\Kotlin-Base\Kotlin-Basico\Kotlin\src\main\kotlin\constant" />
+      <recent name="D:\Danilo A. Damasceno\Desktop\JavaScript e JAVA\Kotlin\Kotlin-Base\Kotlin-Basico\Kotlin\src\main\kotlin\variaveis" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.FunctionsKt">
+    <configuration name="ArraysKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysKt" />
+      <module name="Kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Constantes Kotlin" type="JetRunConfigurationType" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="constant.Constante02Kt" />
+      <module name="Kotlin" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionsKt" />
+      <module name="Kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VariaveisKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="variable.VariaveisKt" />
+      <module name="Kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhileAndForKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WhileAndForKt" />
+      <module name="Kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Kotlin.FunctionsKt" />
+      <item itemvalue="Kotlin.ArraysKt" />
+      <item itemvalue="Kotlin.WhileAndForKt" />
+      <item itemvalue="Kotlin.Constantes Kotlin" />
+      <item itemvalue="Kotlin.VariaveisKt" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.FunctionsKt" />
+        <item itemvalue="Kotlin.ArraysKt" />
+        <item itemvalue="Kotlin.WhileAndForKt" />
+        <item itemvalue="Kotlin.Constantes Kotlin" />
+        <item itemvalue="Kotlin.VariaveisKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03c1c255-1c02-43c0-aa14-6a1a91b6dd65" name="Changes" comment="" />
+      <created>1691691017519</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691691017519</updated>
+      <workItem from="1691691018852" duration="6018000" />
+      <workItem from="1691844546603" duration="1457000" />
+      <workItem from="1691846046898" duration="342000" />
+      <workItem from="1692034909882" duration="508000" />
+      <workItem from="1692035439241" duration="10803000" />
+      <workItem from="1692098169810" duration="9449000" />
+      <workItem from="1692270360496" duration="178000" />
+      <workItem from="1692270563081" duration="10195000" />
+      <workItem from="1692616238603" duration="709000" />
+      <workItem from="1692617587424" duration="9329000" />
+      <workItem from="1692702730352" duration="1480000" />
+      <workItem from="1692704498682" duration="725000" />
+    </task>
+    <task id="LOCAL-00001" summary="🍎 Exercicios de Constantes">
+      <option name="closed" value="true" />
+      <created>1691696909553</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691696909553</updated>
+    </task>
+    <task id="LOCAL-00002" summary="🍎 Exercicios de Constantes">
+      <option name="closed" value="true" />
+      <created>1691697012253</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691697012253</updated>
+    </task>
+    <task id="LOCAL-00003" summary="🔨 Exercicio de While e For">
+      <option name="closed" value="true" />
+      <created>1692047623093</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692047623093</updated>
+    </task>
+    <task id="LOCAL-00004" summary="🥅 Finalizando exercicios de Laços de Repetição">
+      <option name="closed" value="true" />
+      <created>1692108952268</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692108952268</updated>
+    </task>
+    <task id="LOCAL-00005" summary="🍏 Exercícios de ARRAYS">
+      <option name="closed" value="true" />
+      <created>1692281872776</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692281872776</updated>
+    </task>
+    <task id="LOCAL-00006" summary="📌 Funções add e melhorias de escrita irrelevantes em comentarios">
+      <option name="closed" value="true" />
+      <created>1692628271268</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692628271268</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=" Exercicios de Constantes" />
+    <MESSAGE value=" Exercicio de While e For" />
+    <MESSAGE value=" Finalizando exercicios de Laços de Repetição" />
+    <MESSAGE value=" Exercícios de ARRAYS" />
+    <MESSAGE value=" Funções add e melhorias de escrita irrelevantes em comentarios" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Funções add e melhorias de escrita irrelevantes em comentarios" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
