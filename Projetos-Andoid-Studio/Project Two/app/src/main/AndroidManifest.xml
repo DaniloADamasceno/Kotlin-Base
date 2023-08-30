@@ -16,7 +16,11 @@
             android:name="com.kotlin.two.RegistrationActivity"
             android:exported="false" />
         <activity
+<<<<<<< HEAD
             android:name="com.kotlin.two.LoginPageActivity"
+=======
+            android:name="com.kotlin.two.LoguinPageActivity"
+>>>>>>> 85bbc49f7770d2443dac216ae0cd124998fc08cd
             android:exported="false" />
         <activity
             android:name=".MainActivity"

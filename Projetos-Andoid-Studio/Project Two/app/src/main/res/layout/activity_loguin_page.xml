@@ -4,7 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context="com.kotlin.two.LoginPageActivity">
+=======
+    tools:context="com.kotlin.two.LoguinPageActivity">
+>>>>>>> 85bbc49f7770d2443dac216ae0cd124998fc08cd
 
 
     <ImageView
