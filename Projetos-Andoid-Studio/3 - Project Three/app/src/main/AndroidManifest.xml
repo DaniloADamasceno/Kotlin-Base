@@ -10,16 +10,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ProjectTwoScrollView"
+        android:theme="@style/Theme.ProjectThree"
         tools:targetApi="31">
-        <activity
-            android:name="com.kotlin.two.RegistrationActivity"
-            android:exported="false" />
-        <activity
-
-            android:name="com.kotlin.two.LoguinPageActivity"
-
-            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

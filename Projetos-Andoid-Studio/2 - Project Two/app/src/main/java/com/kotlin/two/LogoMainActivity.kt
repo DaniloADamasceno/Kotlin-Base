@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import com.kotlin.ptwo.R
+import com.kotlin.two.R
 
 class LogoMainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,8 +16,7 @@ class LogoMainActivity : AppCompatActivity() {
 
         Handler(Looper.getMainLooper()).postDelayed({
 
-            val intent = Intent(this@LogoMainActivity, LoguinPageActivity::class.java)
-
+            val intent = Intent(this@LogoMainActivity, LoginPageActivity::class.java)
             startActivity(intent)
         }, 5000)
     }
