@@ -1,25 +1,74 @@
 # Kotlin-Base
-<br>
+
+</hr>
+</br>
+</br>
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/DaniloADamasceno/Kotlin-Base?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/DaniloADamasceno/Kotlin-Base?style=for-the-badge)
 
 [![wakatime](https://wakatime.com/badge/github/DaniloADamasceno/Kotlin-Base.svg)](https://wakatime.com/badge/github/DaniloADamasceno/Kotlin-Base)
-<br>
-<br>
+
+</br>
+</br>
 
 ![Imagem](https://github.com/DaniloADamasceno/Kotlin-Base/blob/a5610e23e6965bd908424e745697223e5e2f851c/kotlin-logo.png)
-<br>
-<br>
+
+</br>
+</br>
 
 ## Stack utilizada
 
 ![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white)
 
-<hr>
+</br>
+</br>
+</hr>
 
-<p>  Este repositório contém recursos e exemplos básicos para aprender a linguagem de programação Kotlin. Se você é um iniciante em Kotlin ou deseja revisar os conceitos fundamentais, este é o lugar certo para começar.</p>
-<br>
+## Capturas de Tela
+
+
+<table><tr><td valign="top" width="33%">
+
+<div align="center">
+
+#### Splash e Login Page
+
+![Splash 01](https://github.com/DaniloADamasceno/Image-Bank/assets/71226047/afea25d3-9f07-4fd7-b8cb-f072e94c499a)
+
+![loginPage02](https://github.com/DaniloADamasceno/Image-Bank/assets/71226047/dfcfdb5d-329c-4d22-9376-0c377f70bb8f)
+
+ </div>
+</td><td valign="top" width="33%">
+
+<div align="center">  
+
+#### Login App e Calculadora IMC
+
+![Login APP](https://github.com/DaniloADamasceno/Image-Bank/assets/71226047/96610005-dc36-4c30-9aa6-d2af8bd7e76f)
+
+![Calculadora IMC](https://github.com/DaniloADamasceno/Image-Bank/assets/71226047/436f0f0a-8f3f-4e13-8afa-81d3d6299ca7)
+
+</td><td valign="top" width="33%">
+            
+<div align="center">   
+
+#### WebViews
+
+![WebView SenninGames](https://github.com/DaniloADamasceno/Image-Bank/assets/71226047/56e2ad72-8e64-4c51-89cd-667067e6875c)
+
+![WebView TutorialPoints](https://github.com/DaniloADamasceno/Image-Bank/assets/71226047/c5187492-8b00-4d3c-846f-f0f74e7cac0f)
+
+![WebView DEV To](https://github.com/DaniloADamasceno/Image-Bank/assets/71226047/f5e4694f-6644-4c93-bb7b-0fea078fc80e)
+
+ </div>
+</td></tr></table>  
+
+</br>
+</br>
+
+Este repositório contém recursos e exemplos básicos para aprender a linguagem de programação Kotlin. Se você é um iniciante em Kotlin ou deseja revisar os conceitos fundamentais, este é o lugar certo para começar.
+</br>
 
 - Conceitos Básicos:
 
@@ -60,13 +109,12 @@
           - Lambdas e funções anônimas
           - Operações de coleção de estilo funcional
 
-
- ## Documentação Oficial do Kotlin
+## Documentação Oficial do Kotlin
 
 [Documentação Kotlin](https://developer.android.com/kotlin?gclid=Cj0KCQjwz8emBhDrARIsANNJjS69udT8NiZy7w5Q-Oyv8i1lK2jSHNQN18tYeiG6Ftb9gI-0oS1yQsIaAutYEALw_wcB&gclsrc=aw.ds&hl=pt-br)
 
 
-<hr>
+</hr>
 
 ## Autores
 
