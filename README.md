@@ -1,4 +1,4 @@
-# Kotlin-Base
+# Kotlin Base
 
 </hr>
 </br>
@@ -7,7 +7,9 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/DaniloADamasceno/Kotlin-Base?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/DaniloADamasceno/Kotlin-Base?style=for-the-badge)
 
-[![wakatime](https://wakatime.com/badge/github/DaniloADamasceno/Kotlin-Base.svg)](https://wakatime.com/badge/github/DaniloADamasceno/Kotlin-Base)
+[![wakatime](https://wakatime.com/badge/user/e7f2e494-878d-4290-9a2b-cc473da48b8a/project/a3921a13-3dfc-4135-9e80-e8d46c437af5.svg)](https://wakatime.com/badge/user/e7f2e494-878d-4290-9a2b-cc473da48b8a/project/a3921a13-3dfc-4135-9e80-e8d46c437af5)
+
+ [![Repository Views](https://komarev.com/ghpvc/?username=DaniloADamascenoKotlin&label=Views&color=brightgreen)](https://github.com/DaniloADamasceno/Kotlin)
 
 </br>
 </br>
@@ -17,15 +19,18 @@
 </br>
 </br>
 
-## Stack utilizada
+</br>
+</br>
 
-![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white)
+### 📃 Descrição do Projeto
+
+Repositrio destinado aos estudos de Kotlin 
 
 </br>
 </br>
-</hr>
 
-## Capturas de Tela
+
+## 📲 Capturas de Tela
 
 
 <table><tr><td valign="top" width="33%">
@@ -114,8 +119,26 @@ Este repositório contém recursos e exemplos básicos para aprender a linguagem
 [Documentação Kotlin](https://developer.android.com/kotlin?gclid=Cj0KCQjwz8emBhDrARIsANNJjS69udT8NiZy7w5Q-Oyv8i1lK2jSHNQN18tYeiG6Ftb9gI-0oS1yQsIaAutYEALw_wcB&gclsrc=aw.ds&hl=pt-br)
 
 
+</br>
+</br>
+
+## 🛠️ Stack utilizada
+
+![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+
+## ✒️ Autores
+
+Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
+
+* **Desenvolvedor** -  [@Danilo A. Damasceno](https://github.com/DaniloADamasceno/)
+* **Documentação** -   [@Danilo A. Damasceno](https://github.com/DaniloADamasceno/)
+
+
+</br>
+</br>
+</br>
+
 </hr>
 
-## Autores
-
-- [@DaniloADamasceno](https://github.com/DaniloADamasceno)
+## 📄 Atualizações de Projeto e suas Versões
